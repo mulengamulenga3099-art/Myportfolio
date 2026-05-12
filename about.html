@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About | My Personal Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;0,9..40,700&family=Outfit:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <img class="brand-logo" src="assets/images/kmu-logo.jpg" width="44" height="44" alt="" />
+          <span class="brand-text">
+            <span class="brand-title">My Portfolio</span>
+            <span class="brand-sub">Albert Mulenga</span>
+          </span>
+        </a>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-menu"
+          aria-label="Toggle menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-menu" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="container">
+        <p class="page-intro reveal">
+        </p>
+
+        <div class="about-grid">
+          <div class="about-photo-wrap reveal">
+            <img
+              src="assets/images/portraight.jpg"
+              width="280"
+              height="350"
+              alt="Portrait photograph"
+            />
+          </div>
+          <div>
+            <h1 class="section-title reveal" style="margin-top: 0">About me</h1>
+            <p class="reveal">
+              I’m a cybersecurity specialist with a strong focus on system vulnerability assessment and security analysis. 
+              My expertise centers on identifying, analyzing, and mitigating security weaknesses across networks, systems, and applications to help organizations strengthen their cyber resilience. I have a deep interest in penetration testing, threat detection, risk assessment, and proactive security strategies that protect critical digital infrastructure from evolving cyber threats..
+            </p>
+            <p class="reveal">
+              I am passionate about understanding how attackers think and using that knowledge to improve defensive security measures. 
+              My work involves conducting vulnerability assessments, security audits, and compliance evaluations while recommending practical remediation strategies that enhance system integrity, confidentiality, and availability.
+            </p>
+            <p class="reveal">
+              With a continuous drive to stay updated on emerging threats, security frameworks, and modern attack techniques, I aim to contribute to building secure, reliable, and resilient technological environments. 
+              My goal is not only to identify vulnerabilities but also to help organizations develop a strong security posture through strategic cybersecurity practices and continuous improvement.
+
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© <span id="y"></span> My Personal Portfolio.</div>
+    </footer>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
